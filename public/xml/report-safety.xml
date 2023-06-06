@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+    <!-- 测试名称 -->
+    <test-name>安规检测</test-name>
+    <!-- 设备编号 -->
+    <equip-no>1</equip-no>
+    <!-- 电池包编号 -->
+    <battery-no>A1123</battery-no>
+    <!-- 测试人员 -->
+    <test-man>工程师</test-man>
+    <!-- 室温 -->
+    <room-temp>24.7</room-temp>
+    <!-- 湿度 -->
+    <room-humidity>41.4</room-humidity>
+    <!-- 开始时间 -->
+    <start-time>2022-10-25 16:30:05</start-time>
+    <!-- 总时间 -->
+    <total-time>209</total-time>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-转向电机与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.2561938</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开$  
+                    继电器编号=41;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0079794</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试$ 
+                    绝缘电阻-输出电压(V)=500$ 
+                    绝缘电阻-下限(MΩ)=10$ 
+                    绝缘电阻-上升时间(S)=2$ 
+                    绝缘电阻-下降时间(S)=2$  
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>7132.3</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.016326</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关$  
+                    继电器编号=41;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.032912</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-DC变换器与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.2286703</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=43;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0039951</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试 
+                    绝缘电阻-输出电压(V)=500 
+                    绝缘电阻-下限(MΩ)=10 
+                    绝缘电阻-上升时间(S)=2 
+                    绝缘电阻-下降时间(S)=2 
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>7499.4</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.0085413</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=43;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029908</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-空压机控制器与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.1545975</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=50;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.004114</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试 
+                    绝缘电阻-输出电压(V)=500 
+                    绝缘电阻-下限(MΩ)=10 
+                    绝缘电阻-上升时间(S)=2 
+                    绝缘电阻-下降时间(S)=2 
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>6769.3</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.014053</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=50;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0010256</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-高压配电箱与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.1786596</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=51;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0014126</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试 
+                    绝缘电阻-输出电压(V)=500 
+                    绝缘电阻-下限(MΩ)=10 
+                    绝缘电阻-上升时间(S)=2 
+                    绝缘电阻-下降时间(S)=2 
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>7001.7</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.0166999</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=51;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.003082</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-高压维修开关与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.1913611</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=52;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0050353</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试 
+                    绝缘电阻-输出电压(V)=500 
+                    绝缘电阻-下限(MΩ)=10 
+                    绝缘电阻-上升时间(S)=2 
+                    绝缘电阻-下降时间(S)=2 
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>6637.2</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.0362509</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=52;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0339086</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>绝缘电阻-PTC与车身</test-item>
+        <!-- 运行时间 -->
+        <run-time>11.2374549</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=53;55 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029908</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=绝缘电阻测试 
+                    绝缘电阻-输出电压(V)=500 
+                    绝缘电阻-下限(MΩ)=10 
+                    绝缘电阻-上升时间(S)=2 
+                    绝缘电阻-下降时间(S)=2 
+                    绝缘电阻-测试时间(S)=2 
+                </test-param>
+                <test-value>290.4</test-value>
+                <unit>MΩ</unit>
+                <run-time>11.0448205</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=53;55 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029926</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位1</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2723721</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=66;82;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0039876</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=接地连接测试 
+                    接地连接-输出电流(A)=10 
+                    接地连接-电阻上限(mΩ)=100 
+                    接地连接-电阻下限(mΩ)=1 
+                    接地连接-测试时间(ms)=3 
+                </test-param>
+                <test-value>40.5</test-value>
+                <unit>MΩ</unit>
+                <run-time>9.0891136</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=66;82;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029921</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位2</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.224099</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=65;81;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029976</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=直流耐压测试 
+                    直流耐压-输出电压(V)=1500 
+                    直流耐压-上限(mA)=10 
+                    直流耐压-下限(mA)=1 
+                    直流耐压-Dwell时间(S)=3 
+                    直流耐压-上升时间(S)=3 
+                    直流耐压-下降时间(S)=3 
+                    直流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.02</test-value>
+                <unit>mA</unit>
+                <run-time>9.0753878</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=65;81;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.002992</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位4</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2097203</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=68;84;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029939</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=接地连接测试 
+                    接地连接-输出电流(A)=10 
+                    接地连接-电阻上限(mΩ)=100 
+                    接地连接-电阻下限(mΩ)=1 
+                    接地连接-测试时间(ms)=3
+                </test-param>
+                <test-value>53.1</test-value>
+                <unit>mΩ</unit>
+                <run-time>9.036758</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=68;84;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0339404</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位5</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2111466</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=69;85;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0039588</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=直流耐压测试 
+                    直流耐压-输出电压(V)=1500 
+                    直流耐压-上限(mA)=10 
+                    直流耐压-下限(mA)=1 
+                    直流耐压-Dwell时间(S)=3 
+                    直流耐压-上升时间(S)=3 
+                    直流耐压-下降时间(S)=3 
+                    直流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.03</test-value>
+                <unit>mA</unit>
+                <run-time>9.0478775</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=69;85;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029925</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位6</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2135053</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=70;86;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0030244</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=交流耐压测试 
+                    交流耐压-输出电压(V)=2500 
+                    交流耐压-上限(mA)=10 
+                    交流耐压-下限(mA)=1 
+                    交流耐压-上升时间(S)=3 
+                    交流耐压-下降时间(S)=3 
+                    交流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.02</test-value>
+                <unit>mA</unit>
+                <run-time>9.0097341</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=70;86;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029905</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位7</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.1758665</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=72;88;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029903</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=接地连接测试 
+                    接地连接-输出电流(A)=10 
+                    接地连接-电阻上限(mΩ)=100 
+                    接地连接-电阻下限(mΩ)=1 
+                    接地连接-测试时间(ms)=3 
+                </test-param>
+                <test-value>41</test-value>
+                <unit>mΩ</unit>
+                <run-time>9.0431531</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=72;88;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.002992</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位8</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.1758665</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=71;87;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0041949</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=直流耐压测试 
+                    直流耐压-输出电压(V)=1500 
+                    直流耐压-上限(mA)=10 
+                    直流耐压-下限(mA)=1 
+                    直流耐压-Dwell时间(S)=3 
+                    直流耐压-上升时间(S)=3 
+                    直流耐压-下降时间(S)=3 
+                    直流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>41</test-value>
+                <unit>mA</unit>
+                <run-time>9.0044952</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=71;87;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0019946</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位9</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.1775451</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=73;89;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029945</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=交流耐压测试 
+                    交流耐压-输出电压(V)=2500 
+                    交流耐压-上限(mA)=10 
+                    交流耐压-下限(mA)=1 
+                    交流耐压-上升时间(S)=3 
+                    交流耐压-下降时间(S)=3 
+                    交流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.03</test-value>
+                <unit>mA</unit>
+                <run-time>9.0389057</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=73;89;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029926</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位10</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.1768769</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=74;90;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029776</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=接地连接测试 
+                    接地连接-输出电流(A)=10 
+                    接地连接-电阻上限(mΩ)=100 
+                    接地连接-电阻下限(mΩ)=1 
+                    接地连接-测试时间(ms)=3 
+                </test-param>
+                <test-value>51.6</test-value>
+                <unit>mΩ</unit>
+                <run-time>9.0408694</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=74;90;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0328956</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位11</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2167556</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=75;91;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0034482</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=直流耐压测试 
+                    直流耐压-输出电压(V)=1500 
+                    直流耐压-上限(mA)=10 
+                    直流耐压-下限(mA)=1 
+                    直流耐压-Dwell时间(S)=3 
+                    直流耐压-上升时间(S)=3 
+                    直流耐压-下降时间(S)=3 
+                    直流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.02</test-value>
+                <unit>mA</unit>
+                <run-time>9.0434904</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=75;91;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.002992</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>安规测试-点位12</test-item>
+        <!-- 运行时间 -->
+        <run-time>9.2291535</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=开 
+                    继电器编号=76;92;79;80
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.002991</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>安规测试仪</item-name>
+                <test-param>
+                    测试项=交流耐压测试 
+                    交流耐压-输出电压(V)=2500 
+                    交流耐压-上限(mA)=10 
+                    交流耐压-下限(mA)=1 
+                    交流耐压-上升时间(S)=3 
+                    交流耐压-下降时间(S)=3 
+                    交流耐压-测试时间(S)=3 
+                </test-param>
+                <test-value>0.02</test-value>
+                <unit>mA</unit>
+                <run-time>9.0327373</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=关 
+                    继电器编号=76;92;79;80
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0029919</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+</data>

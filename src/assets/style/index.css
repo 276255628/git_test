@@ -1,0 +1,48 @@
+/* 阿里妈妈数黑体 */
+@font-face {
+	font-family: 'ShuHeiTi Bold';
+	src: url('../Alimama_ShuHeiTi_Bold.ttf');
+}
+/* 阿里巴巴普惠体 */
+@font-face {
+	font-family: 'AlibabaPuHuiTi';
+	src: url('../AlibabaPuHuiTi-2-95-ExtraBold.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+    scrollbar-color: #e5e5e5 #f7f7f9; /* 滑块颜色  滚动条背景颜色 */
+    scrollbar-width: none; /* 滚动条宽度有三种：thin、auto、none  none隐藏滚动条 */
+	font-family: 'AlibabaPuHuiTi';
+}
+  	/**修改全局的滚动条*/
+	/**滚动条的宽度*/
+::-webkit-scrollbar {
+	width: 5px;
+	/*竖向*/
+	height: 5px;
+	/*横向*/
+}
+ 
+	/*滚动条的滑块*/
+:-webkit-scrollbar-thumb {
+	background-color: #c8c9cc;
+	border-radius: 3px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.title {
+	width: 100%;
+	height: 50px;
+	background-color: #282155;
+	color: #fff;
+	font-size: 24px;
+	line-height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	font-family: 'ShuHeiTi Bold';
+  }

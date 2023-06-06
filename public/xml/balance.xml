@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+    <!-- 基本信息 -->
+    <base-info>
+        <!-- 电池包编号 -->
+        <battery-no>A1108</battery-no>
+        <!-- 车型 -->
+        <car-model>EU300</car-model>
+        <!-- 车辆品牌 -->
+        <car-brand>北汽</car-brand>
+        <!-- 里程 -->
+        <car-mill>193465</car-mill>
+        <!-- 均衡电流 -->
+        <balance-elec>5</balance-elec>
+        <!-- 车辆用途 -->
+        <car-use>网约车</car-use>
+        <!-- 维修次数 -->
+        <repair-nums>1</repair-nums>
+        <!-- 均衡时间 从1805递增 -->
+        <balance-time>1805</balance-time>
+    </base-info>
+
+    <!-- 通道信息 -->
+    <channel-info>
+        <!-- 现有空闲通道数 -->
+        <free-channel-nums>28</free-channel-nums>
+        <!-- 均衡完成通道数 -->
+        <finish-channel-nums>0</finish-channel-nums>
+        <!-- 现有均衡通道数 -->
+        <now-channel-nums>20</now-channel-nums>
+        <!-- 故障通道数 -->
+        <error-channel-nums>0</error-channel-nums>
+    </channel-info>
+
+    <!-- 均衡监控信息 -->
+    <!-- 通道1-20显示变化数据 21-48显示灰色0数据 -->
+    <conn-channel>
+        <channel>
+            <!-- 通道序号 -->
+            <channel-inde>1</channel-inde>
+            <!-- 初始电压 -->
+            <channel-volt-init>3.355</channel-volt-init>
+            <!-- 每20S上升电压 -->
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <!-- 最高电压 -->
+            <channel-volt-max>3.650</channel-volt-max>
+            <!-- 固定电流 -->
+            <channel-elec>5</channel-elec>
+            <!-- 初始安时 -->
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <!-- 每20S上升安时 -->
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>2</channel-inde>
+            <channel-volt-init>3.361</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>3</channel-inde>
+            <channel-volt-init>3.357</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>4</channel-inde>
+            <channel-volt-init>3.351</channel-volt-init>
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>5</channel-inde>
+            <channel-volt-init>3.353</channel-volt-init>
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>6</channel-inde>
+            <channel-volt-init>3.357</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>7</channel-inde>
+            <channel-volt-init>3.357</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>8</channel-inde>
+            <channel-volt-init>3.353</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>9</channel-inde>
+            <channel-volt-init>3.350</channel-volt-init>
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>10</channel-inde>
+            <channel-volt-init>3.321</channel-volt-init>
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>11</channel-inde>
+            <channel-volt-init>3.352</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>12</channel-inde>
+            <channel-volt-init>3.351</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>13</channel-inde>
+            <channel-volt-init>3.323</channel-volt-init>
+            <channel-volt-upper>0.0003</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>14</channel-inde>
+            <channel-volt-init>3.352</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>15</channel-inde>
+            <channel-volt-init>3.357</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>16</channel-inde>
+            <channel-volt-init>3.355</channel-volt-init>
+            <channel-volt-upper>0.0005</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>17</channel-inde>
+            <channel-volt-init>3.360</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>18</channel-inde>
+            <channel-volt-init>3.355</channel-volt-init>
+            <channel-volt-upper>0.0005</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>19</channel-inde>
+            <channel-volt-init>3.351</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+        <channel>
+            <channel-inde>20</channel-inde>
+            <channel-volt-init>3.361</channel-volt-init>
+            <channel-volt-upper>0.0004</channel-volt-upper>
+            <channel-volt-max>3.650</channel-volt-max>
+            <channel-elec>5</channel-elec>
+            <channel-ampere-init>1.8</channel-ampere-init>
+            <channel-ampere-upper>0.02</channel-ampere-upper>
+        </channel>
+
+    </conn-channel>
+    <close-channel>
+        <!-- 电压 -->
+        <channel-volt>-</channel-volt>
+        <!-- 电流 -->
+        <channel-elec>-</channel-elec>
+        <!-- 安时 -->
+        <channel-ampere>-</channel-ampere>
+    </close-channel>
+</data>

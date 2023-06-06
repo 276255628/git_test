@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+    <!-- 测试名称 -->
+    <test-name>EOL检测</test-name>
+    <!-- 设备编号 -->
+    <equip-no>1</equip-no>
+    <!-- 电池包编号 -->
+    <battery-no>A1123</battery-no>
+    <!-- 测试人员 -->
+    <test-man>工程师</test-man>
+    <!-- 室温 -->
+    <room-temp>24.7</room-temp>
+    <!-- 湿度 -->
+    <room-humidity>41.4</room-humidity>
+    <!-- 开始时间 -->
+    <start-time>2022-10-25 16:30:05</start-time>
+    <!-- 总时间 -->
+    <total-time>209</total-time>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>BMS电源控制</test-item>
+        <!-- 运行时间 -->
+        <run-time>1.4036312</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>程控电源</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    电压(V)=12$
+                    电流(A)=1$
+                    输出控制(Yes/No/获取电流)=Yes
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0069816</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=开$
+                    继电器编号=43;10;07
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0009974</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>延时</item-name>
+                <test-param>
+                    延时时间(ms)=1000 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>1.0028453</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>切换至EOL模式</test-item>
+        <!-- 运行时间 -->
+        <run-time>5.7885129</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>UDS诊断</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    服务=(10)诊断会话控制$
+                    子服务=03$
+                    发送ID=78B$
+                    接收ID=7CB$
+                    CAN发送类型=CAN
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.5144496</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>UDS诊断</item-name>
+                <test-param>
+                    服务=(27)安全访问$
+                    子服务=01$
+                    发送ID=78b$
+                    接收ID=7cb$
+                    掩码=20424d53$
+                    CAN发送类型=CAN 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.5100463</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>UDS诊断</item-name>
+                <test-param>
+                    服务=(27)安全访问$
+                    子服务=02$
+                    发送ID=78b$
+                    接收ID=7cb$
+                    掩码=20424d53$
+                    CAN发送类型=CAN 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.508276</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>4</item-index>
+                <item-name>UDS诊断</item-name>
+                <test-param>
+                    服务=(2E)按标识符写数据$
+                    发送ID=78B$
+                    接收ID=7CB$
+                    刷写类型=非条码$
+                    数据DID(以空格隔开)=01 CD$
+                    数据(以空格隔开)=0F$
+                    数据类型=HEX$
+                    系数=1$
+                    偏移量=0$
+                    单位=无$
+                    CAN发送类型=CAN$
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.5153593</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>5</item-index>
+                <item-name>延时</item-name>
+                <test-param>
+                    延时时间(ms)=3000 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>3.0094092</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>6</item-index>
+                <item-name>UDS诊断</item-name>
+                <test-param>
+                    服务=(22)按标识符读到数据$
+                    发送ID=78b$
+                    接收ID=7cb$
+                    数据DID(以空格隔开)=E0 FA$
+                    数据类型=HEX$
+                    数据长度=1$
+                    系数=1$
+                    偏移量=0$
+                    单位=无$
+                </test-param>
+                <test-value>55 55</test-value>
+                <unit></unit>
+                <run-time>0.5020658</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+    <table>
+        <!-- 测试项 -->
+        <test-item>整车CAN唤醒</test-item>
+        <!-- 运行时间 -->
+        <run-time>14.1317402</run-time>
+        <!-- 结果 -->
+        <result>YES</result>
+        <detail>
+            <item>
+                <!-- 子项序号 -->
+                <item-index>1</item-index>
+                <!-- 名称 -->
+                <item-name>IO控制</item-name>
+                <!-- 测试参数 -->
+                <test-param>
+                    开/关=关$
+                    继电器编号=10;07 
+                </test-param>
+                <!-- 测试值 -->
+                <test-value></test-value>
+                <!-- 单位 -->
+                <unit></unit>
+                <!-- 运行时间 -->
+                <run-time>0.0029924</run-time>
+                <!-- 结果 -->
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>2</item-index>
+                <item-name>延时</item-name>
+                <test-param>
+                    延时时间(ms)=1000
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>1.0137271</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>3</item-index>
+                <item-name>IO控制</item-name>
+                <test-param>
+                    开/关=开$
+                    继电器编号=10 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>0.0009972</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>4</item-index>
+                <item-name>延时</item-name>
+                <test-param>
+                    延时时间(ms)=8000 
+                </test-param>
+                <test-value></test-value>
+                <unit></unit>
+                <run-time>8.0019117</run-time>
+                <result>YES</result>
+            </item>
+            <item>
+                <item-index>5</item-index>
+                <item-name>程控电源</item-name>
+                <test-param>
+                    电压(V)=12$
+                    电流(A)=2$
+                    输出控制(Yes/No/获取电流)=获取电流 
+                </test-param>
+                <test-value>0.281</test-value>
+                <unit>A</unit>
+                <run-time>0.0280561</run-time>
+                <result>YES</result>
+            </item>
+            <!--  -->
+            <item>
+                <item-index>6</item-index>
+                <item-name>UDS诊断</item-name>
+                <test-param>
+                    服务=(22)按标识符读到数据$
+                    发送ID=78b$
+                    接收ID=7cb$
+                    数据DID(以空格隔开)=E0 FA$
+                    数据类型=HEX$
+                    数据长度=1$
+                    系数=1$
+                    偏移量=0$
+                    单位=无 
+                </test-param>
+                <test-value>55 55</test-value>
+                <unit></unit>
+                <run-time>0.5020658</run-time>
+                <result>YES</result>
+            </item>
+        </detail>
+    </table>
+
+</data>
